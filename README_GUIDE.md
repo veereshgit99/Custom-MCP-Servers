@@ -17,7 +17,7 @@ Congratulations! You've created a **Model Context Protocol (MCP) server** that c
 **Model Context Protocol** is like a USB port for AI assistants:
 - **Standard interface** - Any AI can connect to any MCP server
 - **Tools** - AI can execute functions (like storing/querying data)
-- **Resources** - AI can access files, databases, APIs
+- **Resources** - AI can access files, databases, APIs 
 - **Communication** - Uses JSON-RPC over stdio (standard input/output)
 
 ### How It Works
