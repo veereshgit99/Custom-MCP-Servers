@@ -6,7 +6,7 @@ const db = new Database('memory.db');
 beforeAll(() => {
     db.exec(`CREATE TABLE IF NOT EXISTS mem(
         id TEXT PRIMARY KEY,
-        subject TEXT, text TEXT, tags TEXT,
+        subject TEXT, text TEXT, tags TEXT, 
         created_at INTEGER, weight REAL
     )`);
 });
